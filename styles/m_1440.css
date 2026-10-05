@@ -1,0 +1,69 @@
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 1376px;
+    }
+
+    .welcome_block {
+        position: relative;
+    }
+    .welcome_block .pagination {
+        right: 32px;
+        top: 35%;
+    }
+    .welcome_block .form {
+        margin-top: 85px;
+    }
+
+    .popular_block .titles {
+        grid-template-columns: 1140px auto;
+    }
+    .offer_block .titles {
+        grid-template-columns: auto 1140px;
+    }
+
+
+
+
+    .tour_block {
+        gap: 80px;
+    }
+    .tour_block .title {
+        text-wrap: nowrap;
+    }
+
+    .gallery {
+        grid-template-columns: 1140px auto;
+        gap: 32px;
+    }
+    .gallery .content {
+        width: 1376px;
+    }
+    .gallery .content img {
+        width: 320px;
+        height: 469px;
+    }
+
+    .feedback .content {
+        grid-template-columns: repeat(3, 562px);
+    }
+    .newsletter {
+        width: 1285px;
+    }
+
+
+    .blog_block {
+        .content {
+
+            img {
+                width: 672px;
+                height: 802px;
+            }
+            .info {
+
+                h2 {
+                    font-size: 54px;
+                }
+            }
+        }
+    }
+}
